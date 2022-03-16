@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Socio</string>
+    <string-array name="Events">
+        <item> Event 1</item>
+        <item>Event 2</item>
+        <item>Event 3</item>
+        <item>Event 4</item>
+        <item>Event 5</item>
+        <item>Event 6</item>
+        <item>Event 7</item>
+        <item>Event 8</item>
+    </string-array>
+    <string-array name="Location">
+        <item>Loc 1</item>
+        <item>Loc2 </item>
+        <item>Loc 3</item>
+        <item>Loc 4</item>
+        <item>Loc 5</item>
+        <item>Loc 6</item>
+        <item>Loc 7</item>
+        <item>Loc 8</item>
+    </string-array>
+    <string-array name="Time">
+        <item>TM 1</item>
+        <item>TM 2</item>
+        <item>Tm 3</item>
+        <item>TM 4</item>
+        <item>TM 5</item>
+        <item>TM 6</item>
+        <item>Tm 7</item>
+        <item>Tm 8</item>
+    </string-array>
+</resources>

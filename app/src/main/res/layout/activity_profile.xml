@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-85dp"
+            android:background="@android:color/holo_red_light"
+            android:layout_height="match_parent"
+            tools:context=".ProfileActivity"
+            android:orientation="vertical"
+            android:id="@+id/relativeLayout">
+
+            <ImageView
+                android:id="@+id/profileimage"
+                android:layout_width="142dp"
+                android:layout_height="127dp"
+                android:layout_marginStart="116dp"
+                android:layout_marginLeft="116dp"
+                android:layout_marginTop="92dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_baseline_person_24"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/profileEmail"
+                android:layout_width="264dp"
+                android:layout_height="47dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="400dp"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="textEmailAddress"
+                android:hint="Your Email Adress"
+                android:textColorHint="@color/black"
+                android:textStyle="bold"
+                android:background="@drawable/edit_round"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginLeft="44dp"
+                android:layout_marginTop="264dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_baseline_perm_identity_24"
+                tools:ignore="MissingConstraints,VectorDrawableCompat" />
+
+            <EditText
+                android:id="@+id/profileUid"
+                android:layout_width="274dp"
+                android:layout_height="47dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="304dp"
+                android:hint="Your Name"
+                android:textStyle="bold"
+                android:textColorHint="@color/black"
+                android:textColor="@color/black"
+                android:background="@drawable/edit_round"
+                android:paddingLeft="10dp"
+                android:ems="10"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:inputType="textPersonName"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName5"
+                android:layout_width="101dp"
+                android:layout_height="43dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="256dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:focusable="false"
+                android:clickable="false"
+                android:cursorVisible="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="376dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_baseline_email_24"
+                tools:ignore="MissingConstraints,VectorDrawableCompat" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName6"
+                android:layout_width="101dp"
+                android:layout_height="43dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginLeft="68dp"
+                android:layout_marginTop="352dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Email"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:focusable="false"
+                android:clickable="false"
+                android:cursorVisible="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+
+                android:id="@+id/edit_profile"
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/buttin_round"
+                android:layout_below="@id/profileEmail"
+                android:text="Edit Profile"
+                android:textColor="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/button_logout"
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="28dp"
+                android:layout_below="@id/edit_profile"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttin_round"
+                android:text="Logout"
+                android:textColor="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bottom_navigation"
+                app:itemBackground="@color/black"
+                app:itemTextColor="@drawable/selector"
+                app:itemIconTint="@color/white"
+                app:menu="@menu/menu_navigation"
+                android:layout_alignParentBottom="true"/>
+
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

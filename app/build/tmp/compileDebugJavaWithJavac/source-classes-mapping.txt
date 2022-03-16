@@ -1,0 +1,45 @@
+com/example/socio/BuildConfig.java
+ com.example.socio.BuildConfig
+com/example/socio/EventActivity.java
+ com.example.socio.EventActivity
+ com.example.socio.EventActivity$1
+ com.example.socio.EventActivity$2
+ com.example.socio.EventActivity$2$1
+ com.example.socio.EventActivity$2$2
+com/example/socio/LoginActivity.java
+ com.example.socio.LoginActivity
+ com.example.socio.LoginActivity$1
+ com.example.socio.LoginActivity$2
+ com.example.socio.LoginActivity$3
+ com.example.socio.LoginActivity$4
+com/example/socio/events.java
+ com.example.socio.events
+com/example/socio/Register.java
+ com.example.socio.Register
+ com.example.socio.Register$1
+ com.example.socio.Register$1$1
+ com.example.socio.Register$1$2
+ com.example.socio.Register$2
+com/example/socio/ProfileActivity.java
+ com.example.socio.ProfileActivity
+ com.example.socio.ProfileActivity$1
+ com.example.socio.ProfileActivity$2
+ com.example.socio.ProfileActivity$3
+ com.example.socio.ProfileActivity$4
+ com.example.socio.ProfileActivity$5
+ com.example.socio.ProfileActivity$6
+ com.example.socio.ProfileActivity$7
+ com.example.socio.ProfileActivity$7$1
+com/example/socio/HomeActivity.java
+ com.example.socio.HomeActivity
+ com.example.socio.HomeActivity$1
+ com.example.socio.HomeActivity$2
+ com.example.socio.HomeActivity$3
+ com.example.socio.HomeActivity$ProductsViewHolder
+com/example/socio/ProductsModel.java
+ com.example.socio.ProductsModel
+com/example/socio/MainActivity.java
+ com.example.socio.MainActivity
+ com.example.socio.MainActivity$1
+com/example/socio/User.java
+ com.example.socio.User

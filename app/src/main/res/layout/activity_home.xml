@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_light"
+    android:orientation="vertical"
+
+    tools:context=".HomeActivity">
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/black"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu_navigation" />
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <com.synnapps.carouselview.CarouselView
+                android:id="@+id/carousel"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                tools:ignore="MissingClass" />
+
+
+            <TextView
+                android:layout_width="400dp"
+                android:layout_height="10dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:fontFamily="@font/secular_one"
+                android:gravity="center_horizontal"
+                android:padding="16dp"
+                android:text="UPCOMING EVENTS"
+                android:textAlignment="center"
+
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"></TextView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/firestore_list"
+                android:layout_width="match_parent"
+                android:layout_height="420dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
+
+
+
